@@ -67,7 +67,7 @@ app input:focus{
   .App input, .App button{
       width: 80%;
   }
-  .card {
+  .App.card {
   width: 80%;
   }
 }
@@ -76,7 +76,7 @@ app input:focus{
   .App input, .App button{
       width: 95%;
   }
-  .card {
+ .App .card {
   width: 95%;
   }
 }
