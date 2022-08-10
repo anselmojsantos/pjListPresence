@@ -40,6 +40,7 @@ export default function App() {
         </section>
       </header>
       <h1>Lista de Presença</h1>
+      <h3>Projeto com React.Js e Vite.js</h3>
       <h2>Nome: {studentName}</h2>
       
       <input type="text" placeholder="Adicione um nome..." onChange ={e => setStudentName(e.target.value)}></input>
