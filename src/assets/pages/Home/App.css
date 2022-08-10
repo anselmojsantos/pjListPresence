@@ -45,6 +45,7 @@ app input:focus{
   border:none;
   box-sizing: border-box;
   font-size: 16px;
+  outline-color: #673ab7;
 }
 .App button{
   width: 50%;
@@ -57,4 +58,25 @@ app input:focus{
   cursor: pointer;
   transition: fillter 0.2s ;
   font-size: 16px;
+}
+
+@media (max-width:768px){
+  .App {
+  width: 95%;
+  }
+  .App input, .App button{
+      width: 80%;
+  }
+  .card {
+  width: 80%;
+  }
+}
+
+@media (max-width:500px){
+  .App input, .App button{
+      width: 95%;
+  }
+  .card {
+  width: 95%;
+  }
 }
